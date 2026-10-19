@@ -1,8 +1,5 @@
-#include <stdio.h>
+#include "solutions_task2.h"
 
-int main(void) {
-    int n, k;
-    scanf("%d %d", &n, &k);
-    printf("%d\n", k % n);
-    return 0;
+int apples_left(int n, int k) {
+    return k % n;
 }
