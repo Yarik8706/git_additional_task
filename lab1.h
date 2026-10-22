@@ -25,4 +25,7 @@ const char* day_of_week(int day_num);
 // Подсчитать количество цифр в числе
 int count_digits(int n);
 
+// Задача 3 - Полное количество километров по числу метров
+int full_kilometers(int meters);
+
 #endif
